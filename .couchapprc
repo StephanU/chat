@@ -1,0 +1,13 @@
+{
+  "env": {
+    "default": {
+      "db": "http://localhost:5984/couchapp-sample"
+    },
+    "local": {
+      "db": ""
+    },
+    "production": {
+      "db": ""
+    }
+  }
+}
