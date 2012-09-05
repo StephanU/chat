@@ -1,0 +1,28 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "author": "Stephan Uhle <stephanu@gmx.net>",
+  "description": "a simple couchapp chat server",
+  "contributors": [ 
+    {
+      "name": "Stephan Uhle",
+      "email": "stephanu@gmx.net"
+    } 
+  ],
+  "scripts": {
+    "test": "./run_tests.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StephanU/chat.git"
+  },
+  "keywords": [
+    "chat",
+    "server",
+    "couchdb"
+  ],
+  "devDependencies": {
+    "buster"   :  "0.6.x"
+  },
+  "license": "MIT"
+}
