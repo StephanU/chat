@@ -27,4 +27,4 @@ function (e, params) {
 	$('input[id=name]', this).trigger("focus");
 
 	state.app.req.query.id = params.id;
-};
+}

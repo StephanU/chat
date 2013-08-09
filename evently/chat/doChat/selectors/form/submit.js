@@ -1,15 +1,13 @@
 function () {
-	var widget = $(this);
-	var state = $$(this);
-
-	// build the message
-	var message = {
-		"chatid" : $('input[id=id]', this).val(),
-		"type" : "message",
-		"time" : new Date().toString(),
-		"name" : $('input[id=name]', this).val(),
-		"message" : $('input[id=message]', this).val()
-	};
+	var widget = $(this),
+		state = $$(this),
+		message = {
+			"chatid" : $('input[id=id]', this).val(),
+			"type" : "message",
+			"time" : new Date().toString(),
+			"name" : $('input[id=name]', this).val(),
+			"message" : $('input[id=message]', this).val()
+		};
 
 	if (message.message && message.message !== "") {
 		// save the message
@@ -24,4 +22,4 @@ function () {
 	$('input[id=message]', this).trigger("focus");
 
 	return false;
-};
+}
